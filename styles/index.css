@@ -249,7 +249,7 @@ nav {
     padding-right: 36px;
 }
 #aboutMe {
-    margin: 0 230px;
+    margin: 0 60px;
     padding: 131px 157px;
     background-color: #FFF8F3;
     display: flex;
@@ -289,7 +289,7 @@ nav {
     color: #757575;
 }
 #whatIDo {
-    margin: 130px 230px 0;
+    margin: 130px 100px 0;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -360,6 +360,15 @@ nav {
     display: flex;
     gap: 24px;
 }
+.item {
+    min-height: 216px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+hr {
+    width: 100%;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -370,3 +379,67 @@ nav {
     font-weight: 700;
     color: #474747;
 }
+.itemInstitute {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+    color: #757575;
+}
+.itemDescription {
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+#footer {
+    margin-top: 227px;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+    background-color: #FFF8F3;
+}
+#footerText {
+    flex-basis: 50%;
+}
+#footerText h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+#footerText P {
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    padding: 10px 0 20px;
+}
+#footerText div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#contactForm {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#contactForm h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    padding-bottom: 4px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.input {
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+}
+.input .textarea {
+    
+}
+
